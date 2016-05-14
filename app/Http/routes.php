@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/', function () {
+	$response = array();
+	$response['service'] = "Bifrost";
+
+	try{
+	   DB::connection()->getDatabaseName();
+	   $response['status'] = true;
+	}catch(Exception $e){
+	   $response['status'] = false;
+	}
+
+    return response()->json($response);
+});
