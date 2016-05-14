@@ -34,7 +34,7 @@
             "database"
         ],
         "psr-4": {
-            "Bifrost\\": "app/"
+            "Terra\\Bifrost\\": "app/"
         }
     },
     "autoload-dev": {

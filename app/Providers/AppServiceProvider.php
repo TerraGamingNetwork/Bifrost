@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Terra\Bifrost\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

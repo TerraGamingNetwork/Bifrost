@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Terra\Bifrost\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
+        'Terra\Bifrost\Model' => 'Terra\Bifrost\Policies\ModelPolicy',
     ];
 
     /**

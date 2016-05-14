@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Terra\Bifrost\Http\Controllers\Auth;
 
-use App\User;
+use Terra\Bifrost\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Terra\Bifrost\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

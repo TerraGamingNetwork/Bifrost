@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace Terra\Bifrost\Jobs;
 
 use Illuminate\Bus\Queueable;
 
