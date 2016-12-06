@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
+        Terra\Bifrost\Providers\AppServiceProvider::class,
+        Terra\Bifrost\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Terra\Bifrost\Providers\EventServiceProvider::class,
+        Terra\Bifrost\Providers\RouteServiceProvider::class,
 
     ],
 
