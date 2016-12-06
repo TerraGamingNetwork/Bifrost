@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Terra\Bifrost\Http\Controllers\Auth;
 
 use App\User;
 use Validator;
